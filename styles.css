@@ -1,0 +1,642 @@
+body{
+  margin: 0;
+  padding: 0;
+height: 400vh;
+
+}
+.icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 15px;
+}
+
+.icon .logo {
+  max-width: 110px; 
+  height: auto;
+}
+
+
+nav{
+  height: 15dvh;
+  width: 100vh;
+  min-width: 42vw;
+  display: flex;
+align-items: center; 
+justify-content: space-around;
+margin:auto;
+
+
+
+
+}
+a{
+  position: relative;
+  text-decoration: none;
+font-family: 'poppins',sans-serif;
+color:white;
+font-size: 18px;
+letter-spacing: 0.5px;
+padding: 0 20px;
+
+}
+a:after{
+  content: "";
+position: absolute;
+  background-color: rgb(173, 114, 5); 
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: 0.3s;
+}
+a:hover:after{
+  width: 100%;
+}
+a:hover{
+  color:white;
+
+}
+.search{
+  position: absolute;
+  top: 44px;
+  right: 40px;
+  width: 230px;
+  }
+  .search input[type="text"] {
+      padding: 5px;
+      font-size: 16px;
+  }
+  .home{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      height: 85vh;
+
+  }
+  .home-left{
+      width: 50vw;
+      margin-inline-start: 120px;
+  }
+
+  .h1{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     color: white;
+     font-size: 48px;
+  }
+
+
+  .p{
+  color: rgb(242, 208, 108);
+  font-size: 24px;
+
+  }
+   .bot-home{
+      color: white;
+      padding-left: 120px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-size: 48px;
+  }
+  .p-bot{
+      color:rgb(242, 208, 108) ;
+      font-size: 24px;
+      padding-left:120px ;
+      line-height: 8px;
+
+
+  } 
+  .bottom{
+      padding-left: 100px;
+      font-size: 50px;
+
+  }
+
+      .home-middle {
+ 
+        margin: 20px;
+        display: flex;
+        flex-direction: row;
+        padding: 50px ;
+      }
+      
+      .home-middle-sub {
+        width: 20%;
+        margin: 40px 40px;
+        padding: 20px 30px;
+        border: 1px solid #ccc;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        background: transparent; 
+      }
+      
+      .home-middle-sub h2 {
+        margin: 0 ;
+        font-size: 1.5em;
+        color: burlywood;
+      }
+      
+      .home-middle-sub p {
+        margin:5px 0 0;
+        font-size: 1.1em;
+        color:white;
+      } 
+      .home-p1{
+        line-height: 40px;
+      }
+  
+
+
+
+
+
+/* login */
+body {
+    font-family: Arial, sans-serif;
+    background-size: cover;background-image: url(file:///Users/apple/Downloads/WhatsApp%20Image%202024-08-01%20at%2018.31.23.jpeg);
+    background-size: cover;
+     background-repeat: no-repeat;
+     background-attachment: fixed; 
+  
+}
+
+.container {
+    padding: 60px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); 
+    width: 340px;
+    height: 380px;
+    margin: 120px auto;
+    position: relative;
+    text-align: center;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.form-group i {
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    color: #888;
+}
+
+.round-button {
+    padding: 15px 25px;
+    border-radius: 100vh;
+    cursor: pointer;
+    font-size: 16px;
+   width: 110px;
+   bottom: 0;
+   right: 160px;
+   text-align: center;
+   margin-bottom: 120px;
+   position: absolute;
+}
+
+.round-button:hover {
+    background-color:burlywood;
+}
+
+.forgot-password a {
+    color:white;
+     text-decoration: none;
+    position: absolute; 
+    top: 260px;
+    right: -13%;
+      transform: translateX(-50%); 
+    padding: 10px;
+    text-align: right;
+    font-size: 18px;
+   
+}
+
+
+.register-link{
+    position: absolute; 
+    bottom: 50px; 
+    width: 80%; 
+    text-align: center; 
+    margin-bottom: 10px;
+    color: white; 
+}
+
+
+.register-link p {
+   
+    color: white;
+    top: 360px;
+    right: 20%; 
+
+}
+
+.register-link a {
+    color:white;
+    text-decoration: none;
+    top:4px ;
+    right: -10%;
+}
+
+
+
+
+/* register */
+.register-button {
+    width: 60%;
+    padding: 50px;
+    border-radius: 60px;
+    background:black;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: burlywood;
+}
+.login-link, a{
+    color: white;
+    padding: 7px 0;
+    
+}
+
+
+/* About */
+.about-left{
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+  justify-content: space-between;
+    height: 15vh;  
+  font-size: 65px;
+  color: white;
+  width: 50vw;
+  padding: 180px ;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  line-height: 80px;
+  
+}
+h6{
+  align-items: center;
+  width: 45vw;
+  margin: 0 180px;
+  font-size: 20px;
+  color: white;
+  line-height: 25px;
+
+}
+
+.members {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+  padding: 70px;
+}
+
+.no-members {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color:white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.no-members:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+} 
+
+.no-members h1 {
+  margin: 0;
+  font-size: 2em;
+  color: burlywood;
+}
+
+.no-members p {
+  margin: 5px 0 0;
+  font-size: 1.2em;
+  color:black;
+}
+
+.about-middle {
+ 
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  padding: 50px ;
+}
+
+.about-middle-sub {
+  width: 20%;
+  margin: 40px 40px;
+  padding: 10px 30px;
+  border: 1px solid #ccc;
+  background-color:white;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+.about-middle-sub:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+} 
+
+.about-middle-sub h2 {
+  margin: 0 ;
+  font-size: 1.5em;
+  color: burlywood;
+}
+
+.about-middle-sub p {
+  margin:5px 0 0;
+  font-size: 1.1em;
+  color: black;
+} 
+.heading{
+  color:burlywood;
+  font-size: 50px;
+  text-align: center;
+  padding: 20px 30px;
+  line-height:0;
+}
+/* review */
+body {
+  font-family: Arial, sans-serif;
+  
+  margin: 0;
+  padding: 0;
+}
+
+.review {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.review .heading {
+  font-size: 2em;
+  margin: 20px 20px;
+}
+
+.review-slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+}
+
+.wrappers {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 100px;
+  max-width: 1250px;
+  margin: auto;
+}
+
+.box {
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding:30px 30px;
+  width: 250px;
+  text-align: center;
+  border: 1px solid white;
+  background-color:white;
+}
+.box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+} 
+
+.box img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.box p {
+  font-size: 1em;
+  margin-bottom: 30px;
+  color:black;
+}
+
+.box h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: black;
+}
+
+/* Stars styling */
+.stars {
+  color: rgb(209, 126, 18);
+  display: inline-block;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+/* message */
+
+.message {
+  max-width: 600px;
+  margin: 50px;
+  padding: 40px;
+  background-color:white;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid white;
+}
+.message:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+} 
+
+form div {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color:black;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  height: 100px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007BFF;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+/* <!-- social meadia --> */
+  .about-right {
+  position: absolute; 
+  top: 2800px; 
+  right: 170px; 
+  width: 300px; 
+   padding:0 70px; 
+  color: white; 
+  font-size: 30px;
+  border: 1px solid white;
+  border-radius: 20px;
+  background-color:transparent;
+  }
+  .about-right:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  } 
+  .h2{
+    position: absolute;
+    top: 0;
+    
+
+  }
+  .about-p{
+    font-size:20px ;
+    color: black;
+  }
+  .about-p1{
+    line-height: 15px;
+    font-size: 20px;
+    color: black;
+  }
+  .bx {
+    color: black;
+    
+  }
+
+
+  .social-media-img{
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+  }
+  .social-media-ing{
+    justify-content: space-between;
+  }
+
+
+  /* services */
+ 
+  .Services {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.Services-h1 {
+    text-align: center;
+    color:rgb(220, 132, 17);
+    margin-bottom: 40px;
+}
+
+.Services-sub-cont {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding:90px 30px;
+}
+
+.Services-card {
+    background:rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3px 0;
+    padding-block: 20px;
+    padding-inline: 40px;
+}
+
+ .Services-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+} 
+
+.Services-img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.Services-h2 {
+    font-size: 24px;
+    color: #333;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.Services-p {
+    font-size: 20px;
+    color: #666;
+    margin: 5px 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.price {
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: rgb(217, 125, 5);
+}
+.enroll-now{
+  background-color: black;
+  color: burlywood;
+}
+.Services1{
+  text-align: center;
+  color:rgb(220, 132, 17) ;
+
+}
+.heading1{
+  color:burlywood;
+  font-size: 30px;
+  text-align: center;
+  padding: 10px 10px;
+}
